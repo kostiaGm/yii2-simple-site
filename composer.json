@@ -1,0 +1,21 @@
+{
+    "name": "kostiagm/yii2-simple-site",
+    "description": "Admin, Rback, Site Options, Pages",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","simple site"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anisimov Kostya",
+            "email": "kostiaGm@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kostiagm\\simplesite\\": ""
+        }
+    }
+}
