@@ -11,11 +11,18 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0"
+        "yiisoft/yii2": "~2.0.0",
+        "kostiagm/yii2-simple-site": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "kostiagm\\simplesite\\": ""
+            "kostiagm\\simplesite\\": "src"
         }
-    }
+    },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "https://github.com/kostiaGm/yii2-simple-site.git"
+        }
+    ]
 }
