@@ -13,7 +13,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "kostiagm/yii2-simple-site": "@dev"
+        "kostiagm/yii2-simple-site": "dev-master"
     },
     "autoload": {
         "psr-4": {
