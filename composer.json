@@ -4,6 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2","extension","simple site"],
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Anisimov Kostya",
@@ -12,7 +13,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "kostiagm/yii2-simple-site": "dev-master"
+        "kostiagm/yii2-simple-site": "@dev"
     },
     "autoload": {
         "psr-4": {
